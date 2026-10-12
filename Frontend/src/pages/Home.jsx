@@ -57,7 +57,7 @@ function Home() {
                 <h1 className='text-4xl font-extrabold text-zinc-700'>Your home, in one place</h1>
             </div>
             <div className='flex gap-2'>
-                <button className='bg-blue-500 px-5 rounded-2xl flex items-center font-bold gap-2 h-13 hover:bg-blue-700 hover:text-white transition'><FaFileExport/> Export</button>
+                {/* <button className='bg-blue-500 px-5 rounded-2xl flex items-center font-bold gap-2 h-13 hover:bg-blue-700 hover:text-white transition'><FaFileExport/> Export</button> */}
                 <button className='bg-red-500 rounded-2xl px-5 flex items-center font-bold gap-2 h-13 hover:bg-red-700 hover:text-white transition' onClick={handleOpen}><MdAdd className='font-extrabold'/> Add items</button>
             </div>
             
