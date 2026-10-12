@@ -2,7 +2,7 @@ import axios from "axios";
 
 //creating varibale for axios instance
 const axiosInstances=axios.create({
-    baseURL:"http://localhost:3000",
+    baseURL:"https://inventaker-api.onrender.com",
     timeout:5000
 })
 
